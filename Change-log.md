@@ -1,5 +1,7 @@
 # Change Log
 
+- Reverted PR [#602](https://github.com/stomp-js/rx-stomp/pull/602), fixes [#614](https://github.com/stomp-js/rx-stomp/issues/614).
+
 ## 2.2.0 (2025-09-23)
 
 - added export for commonjs [#602](https://github.com/stomp-js/rx-stomp/pull/602).
