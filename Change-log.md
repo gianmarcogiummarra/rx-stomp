@@ -1,5 +1,6 @@
 # Change Log
 
+- Extended `uuid` peer dependency range to `>=9.0.0 <15.0.0` to resolve npm audit advisory [GHSA-w5hq-g745-h8pq](https://github.com/advisories/GHSA-w5hq-g745-h8pq) (missing buffer bounds check in `uuid` v3/v5/v6). Only `v4()` is used internally, no API changes.
 - Reverted PR [#602](https://github.com/stomp-js/rx-stomp/pull/602), fixes [#614](https://github.com/stomp-js/rx-stomp/issues/614).
 
 ## 2.2.0 (2025-09-23)
