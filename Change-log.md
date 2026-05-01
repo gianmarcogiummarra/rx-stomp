@@ -1,5 +1,7 @@
 # Change Log
 
+## 2.3.0 (2025-11-25)
+
 - Reverted PR [#602](https://github.com/stomp-js/rx-stomp/pull/602), fixes [#614](https://github.com/stomp-js/rx-stomp/issues/614).
 
 ## 2.2.0 (2025-09-23)
