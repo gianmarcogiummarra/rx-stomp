@@ -3,16 +3,6 @@
 
 module.exports = function (config) {
   config.set({
-    plugins: [
-      require('@chiragrupani/karma-chromium-edge-launcher'),
-      require('karma-chrome-launcher'),
-      require('karma-firefox-launcher'),
-      require('karma-jasmine'),
-      require('karma-rollup-preprocessor'),
-      require('karma-safari-launcher'),
-      require('karma-summary-reporter'),
-    ],
-
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
